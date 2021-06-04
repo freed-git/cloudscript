@@ -1,8 +1,8 @@
-handlers.helloWorld55 = function (args, context) {
+handlers.helloWorld77 = function (args, context) {
     
     // The pre-defined "currentPlayerId" variable is initialized to the PlayFab ID of the player logged-in on the game client. 
     // Cloud Script handles authenticating the player automatically.
-    var message = "Hello55 " + currentPlayerId + "!";
+    var message = "Hello77 " + currentPlayerId + "!";
 
     // You can use the "log" object to write out debugging statements. It has
     // three functions corresponding to logging level: debug, info, and error. These functions
@@ -11,7 +11,7 @@ handlers.helloWorld55 = function (args, context) {
     var inputValue = null;
     if (args && args.inputValue)
         inputValue = args.inputValue;
-    log.debug("helloWorld55:", { input: args.inputValue });
+    log.debug("helloWorld77:", { input: args.inputValue });
 
     // The value you return from a Cloud Script function is passed back 
     // to the game client in the ExecuteCloudScript API response, along with any log statements
